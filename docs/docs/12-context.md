@@ -152,7 +152,7 @@ Stateless functional components are also able to reference `context` if `context
 ```javascript
 function Button(props, context) {
   return (
-    <button style={{'{{'}}background: context.color}}>
+    <button style={{background: context.color}}>
       {props.children}
     </button>
   );
